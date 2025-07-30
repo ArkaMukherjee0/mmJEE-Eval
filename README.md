@@ -1,4 +1,4 @@
-# mmJEE-Eval: A Multimodal Multilingual Dataset for Benchmarking VLMs
+# mmJEE-Eval: A Multilingual Multimodal Benchmark for Evaluating Scientific Reasoning in Vision-Language Models
 
 <div align="center">
   <img src="fig/benchmark_comparison.png" alt="Benchmark Comparison" width="600">
