@@ -27,16 +27,16 @@ This repository accompanies our paper submission to ARR July 2025. The codebase 
 Contains evaluation scripts organized by test type:
 
 - **`eval_test_1_acc/`** - Accuracy evaluation scripts and results
- - `acc_test.ipynb` - Tests with accuracy (Section 4.1)
+  - `acc_test.ipynb` - Tests with accuracy (Section 4.1)
 
 - **`eval_test_2_vs_jeeb/`** - JEEBench comparative evaluation
- - `jeebench.ipynb` - Gemma 3 27B evaluation
- - `jeebench_internlm3.ipynb` - InternLM3 model evaluation
- - `jeebench_qwen2.5vl.ipynb` - Qwen2.5VL model evaluation
+  - `jeebench.ipynb` - Gemma 3 27B evaluation
+  - `jeebench_internlm3.ipynb` - InternLM3 model evaluation
+  - `jeebench_qwen2.5vl.ipynb` - Qwen2.5VL model evaluation
 
 - **`eval_test_3/`** - Manually testing examples from model outputs
- - `eval_test_3.ipynb` - Processing wrong responses
- - `manual_testing.py` - Manual testing utility
+  - `eval_test_3.ipynb` - Processing wrong responses
+  - `manual_testing.py` - Manual testing utility
 
 ### 📁 `fig/`
 Contains all visualizations and figures used in the paper
