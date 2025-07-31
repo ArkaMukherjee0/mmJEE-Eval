@@ -31,7 +31,7 @@ Contains evaluation scripts organized by test type:
 
 - **`eval_test_2_vs_jeeb/`** - JEEBench comparative evaluation
   - `jeebench.ipynb` - Gemma 3 27B evaluation
-  - `jeebench_internlm3.ipynb` - InternLM3 model evaluation
+  - `jeebench_internlm3.ipynb` - InternVL3 model evaluation
   - `jeebench_qwen2.5vl.ipynb` - Qwen2.5VL model evaluation
 
 - **`eval_test_3/`** - Manually testing examples from model outputs
