@@ -37,6 +37,9 @@ Contains evaluation scripts organized by test type:
 - **`eval_test_3/`** - Manually testing examples from model outputs
   - `eval_test_3.ipynb` - Processing wrong responses
   - `manual_testing.py` - Manual testing utility
+ 
+- **`self-improvement/`** - Self-improvement pipeline (CT+EP+EC)
+  - `gemma3_27b_epec.ipynb` - Example outputs and dataset iteration with Gemma3 27B
 
 ### 📁 `fig/`
 Contains all visualizations and figures used in the paper
@@ -46,4 +49,5 @@ Utility scripts and tools for data processing:
 - `image_req_tool.py` - Pre-processing utility
 - `jee_adv_answer_annotation_tool.py` - Answer annotation tool for JEE Advanced questions
 - `jee_adv_ques_annotation_tool.py` - Question annotation tool for JEE Advanced problems
+- `manual_testing.py` - Human evaluation on 400 model responses for reasoning quality 
 - `ocr.ipynb` - Example questions from our dataset after processing through an OCR agent
