@@ -1,15 +1,15 @@
 # mmJEE-Eval: A Multilingual Multimodal Benchmark for Evaluating Scientific Reasoning in Vision-Language Models
 
 <div align="center">
-  <img src="fig/benchmark_comparison.png" alt="Benchmark Comparison" width="600">
-  <p><em>Performance comparison of state-of-the-art models across mmJEE-Eval and established benchmarks: AIME 2024, GPQA Diamond, MATH-500, MMLU-PRO. mmJEE-Eval ranks as the #1 most difficult benchmark (by average score).</em></p>
+  <img src="fig/model_scaling_behavior.png" alt="Benchmark Comparison" width="600">
+  <p><em>Model performance scaling on mmJEE-Eval and other industry standard VLM reasoning benchmarks(CharXiv, MMMU, MMMU-Pro, MathVista). Open-source models (solid circles) exhibit log-linear scaling (polynomial fit shown) from 7B to 400B parameters, maxing out at 45-50% accuracy on mmJEE-Eval. Our benchmark prevents saturation even at 400B parameters, eliminating ceiling effect barriers in standard alternatives (R²=0.14-0.42 vs R²=0.91). However, only frontier Google and OpenAI models (stars, parameter counts are means of industry speculation) achieve 73-80% accuracy, exceeding the open-source trend by 28-35%.</em></p>
 </div>
 
 
-- mmJEE-Eval  is a multimodal and multilingual dataset for LLM evaluation comprising 1,460 challenging questions from seven years (2019-2025) of India's JEE Advanced competitive examination.
-- Comprehensive evaluation of five state-of-the-art VLMs reveals that even frontier models struggle significantly: Gemini 2.5 Pro achieves 81.2% accuracy while OpenAI o3 reaches 77.9%, with smaller models performing substantially worse (≤30%).
+- mmJEE-Eval  is a multimodal and bilingual dataset for LLM evaluation comprising 1,460 challenging questions from seven years (2019-2025) of India's JEE Advanced competitive examination.
+- Comprehensive evaluation of 17 state-of-the-art VLMs reveals a concerning trend: open models (from 7B-400B) struggle significantly as compared to frontier models from Google and OpenAI.
 - mmJEE-Eval is significantly more challenging than the text-only JEEBench, the only other well-established dataset on JEE Advanced problems, with performance drops of 18-56% across all models.
-- Our findings and manual error analysis demonstrate that contemporary VLMs remain limited in authentic scientific reasoning despite strong computational capabilities, establishing mmJEE-Eval~as a challenging benchmark that effectively discriminates between model capabilities.
+- Our findings, especially metacognitive self-correction abilities, cross-lingual consistency, and human evaluation of reasoning quality, demonstrate that contemporary VLMs still show authentic scientific reasoning deficits despite strong question-solving capabilities (as evidenced by high Pass@K accuracies), establishing mmJEE-Eval as a challenging complementary benchmark that effectively discriminates between model capabilities.
 
 
 <div align="center">
