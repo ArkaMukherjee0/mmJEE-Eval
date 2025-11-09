@@ -1,4 +1,24 @@
-# mmJEE-Eval: A Multilingual Multimodal Benchmark for Evaluating Scientific Reasoning in Vision-Language Models
+# mmJEE-Eval: A Bilingual Multimodal Benchmark for Exam-Style Evaluation of Vision-Language Models
+
+<div align="center">
+<!-- Badges -->
+<a href="https://arxiv.org/abs/COMING_SOON">
+    <img src="https://img.shields.io/badge/arXiv-Coming%20Soon-B31B1B?style=for-the-badge&logo=arxiv&logoColor=white" alt="arXiv">
+</a>
+<a href="https://huggingface.co/datasets/ArkaMukherjee/mmJEE-Eval">
+    <img src="https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Dataset-yellow?style=for-the-badge" alt="Hugging Face Dataset">
+</a>
+<a href="https://mmjee-eval.github.io">
+    <img src="https://img.shields.io/badge/🌐%20Website-mmjee--eval-blue?style=for-the-badge" alt="Website">
+</a>
+<a href="#license">
+    <img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge" alt="License">
+</a>
+</div>
+
+## Introduction
+
+mmJEE-Eval  is a multimodal and bilingual dataset for LLM evaluation comprising 1,460 challenging questions from seven years (2019-2025) of India's JEE Advanced competitive examination. We evaluate 17 state-of-the-art VLMs, finding that open models (from 7B-400B) struggle significantly (maxing at 40-50%) as compared to frontier models from Google and OpenAI (77-84%). mmJEE-Eval is significantly more challenging than the text-only JEEBench, the only other well-established dataset on JEE Advanced problems, with performance drops of 18-56% across all models. Our findings, especially metacognitive self-correction abilities, cross-lingual consistency, and human evaluation of reasoning quality, demonstrate that contemporary VLMs still show authentic scientific reasoning deficits despite strong question-solving capabilities (as evidenced by high Pass@K accuracies), establishing mmJEE-Eval as a challenging complementary benchmark that effectively discriminates between model capabilities.
 
 <div align="center">
   <img src="fig/model_scaling_behavior.png" alt="Benchmark Comparison" width="600">
@@ -6,11 +26,10 @@
 </div>
 
 
-- mmJEE-Eval  is a multimodal and bilingual dataset for LLM evaluation comprising 1,460 challenging questions from seven years (2019-2025) of India's JEE Advanced competitive examination.
-- Comprehensive evaluation of 17 state-of-the-art VLMs reveals a concerning trend: open models (from 7B-400B) struggle significantly as compared to frontier models from Google and OpenAI.
-- mmJEE-Eval is significantly more challenging than the text-only JEEBench, the only other well-established dataset on JEE Advanced problems, with performance drops of 18-56% across all models.
-- Our findings, especially metacognitive self-correction abilities, cross-lingual consistency, and human evaluation of reasoning quality, demonstrate that contemporary VLMs still show authentic scientific reasoning deficits despite strong question-solving capabilities (as evidenced by high Pass@K accuracies), establishing mmJEE-Eval as a challenging complementary benchmark that effectively discriminates between model capabilities.
 
+
+---
+## Error Example
 
 <div align="center">
   <img src="fig/model_response_example.png" alt="Model Response Example" width="600">
